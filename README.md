@@ -17,5 +17,9 @@ Create virtual environment:
 python3 -m venv venv
 
 ## Code Execution
-- ```python Routine_identification.py```
-- ```python Routine_Evaluation.py```
+
+Run the following scripts:
+
+```bash
+python Routine_Identification.py
+python Routine_Evaluation.py
