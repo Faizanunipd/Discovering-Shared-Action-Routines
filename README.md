@@ -15,3 +15,7 @@ Create virtual environment:
 
 ```bash
 python3 -m venv venv
+
+## Code Execution
+- ```python Routine_identification.py```
+- ```python Routine_Evaluation.py```
