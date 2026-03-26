@@ -1,217 +1,173 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <pnml>
-  <net id="imported_1773906334.371775" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
-    <name>
-      <text>imported_1773906334.371775</text>
-    </name>
-    <page id="n0">
-      <place id="p3">
-        <name>
-          <text>p3</text>
-        </name>
+  <net id="r155" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name><text>r155</text></name>
+    <page id="page1">
+      <place id="p0">
+        <name><text>p0</text></name>
+        <graphics><position x="0" y="0"/></graphics>
+        <initialMarking><text>1</text></initialMarking>
       </place>
       <place id="p1">
-        <name>
-          <text>p1</text>
-        </name>
-      </place>
-      <place id="p4">
-        <name>
-          <text>p4</text>
-        </name>
+        <name><text>p1</text></name>
+        <graphics><position x="280" y="0"/></graphics>
       </place>
       <place id="p2">
-        <name>
-          <text>p2</text>
-        </name>
+        <name><text>p2</text></name>
+        <graphics><position x="560" y="0"/></graphics>
+      </place>
+      <place id="p3">
+        <name><text>p3</text></name>
+        <graphics><position x="840" y="0"/></graphics>
+      </place>
+      <place id="p4">
+        <name><text>p4</text></name>
+        <graphics><position x="1120" y="0"/></graphics>
       </place>
       <place id="p5">
-        <name>
-          <text>p5</text>
-        </name>
+        <name><text>p5</text></name>
+        <graphics><position x="1400" y="0"/></graphics>
       </place>
       <place id="p6">
-        <name>
-          <text>p6</text>
-        </name>
+        <name><text>p6</text></name>
+        <graphics><position x="1680" y="0"/></graphics>
       </place>
       <place id="p7">
-        <name>
-          <text>p7</text>
-        </name>
+        <name><text>p7</text></name>
+        <graphics><position x="1960" y="0"/></graphics>
       </place>
       <place id="p8">
-        <name>
-          <text>p8</text>
-        </name>
+        <name><text>p8</text></name>
+        <graphics><position x="2240" y="0"/></graphics>
       </place>
       <place id="p9">
-        <name>
-          <text>p9</text>
-        </name>
+        <name><text>p9</text></name>
+        <graphics><position x="2520" y="0"/></graphics>
       </place>
       <place id="p10">
-        <name>
-          <text>p10</text>
-        </name>
+        <name><text>p10</text></name>
+        <graphics><position x="2800" y="0"/></graphics>
       </place>
       <place id="p11">
-        <name>
-          <text>p11</text>
-        </name>
+        <name><text>p11</text></name>
+        <graphics><position x="3080" y="0"/></graphics>
       </place>
       <place id="p12">
-        <name>
-          <text>p12</text>
-        </name>
+        <name><text>p12</text></name>
+        <graphics><position x="3360" y="0"/></graphics>
       </place>
       <place id="p13">
-        <name>
-          <text>p13</text>
-        </name>
-      </place>
-      <place id="p0">
-        <name>
-          <text>p0</text>
-        </name>
-        <initialMarking>
-          <text>1</text>
-        </initialMarking>
+        <name><text>p13</text></name>
+        <graphics><position x="3640" y="0"/></graphics>
       </place>
       <place id="p14">
-        <name>
-          <text>p14</text>
-        </name>
+        <name><text>p14</text></name>
+        <graphics><position x="3920" y="0"/></graphics>
       </place>
       <place id="p15">
-        <name>
-          <text>p15</text>
-        </name>
+        <name><text>p15</text></name>
+        <graphics><position x="4200" y="0"/></graphics>
       </place>
       <place id="p16">
-        <name>
-          <text>p16</text>
-        </name>
+        <name><text>p16</text></name>
+        <graphics><position x="4480" y="0"/></graphics>
       </place>
       <transition id="t0">
-        <name>
-          <text>a33</text>
-        </name>
-      </transition>
-      <transition id="t4">
-        <name>
-          <text>a53</text>
-        </name>
-      </transition>
-      <transition id="t2">
-        <name>
-          <text>a30</text>
-        </name>
+        <name><text>clickCreate</text></name>
+        <graphics><position x="140" y="0"/></graphics>
       </transition>
       <transition id="t1">
-        <name>
-          <text>a86</text>
-        </name>
+        <name><text>wait the menu</text></name>
+        <graphics><position x="420" y="0"/></graphics>
+      </transition>
+      <transition id="t2">
+        <name><text>click on menu</text></name>
+        <graphics><position x="700" y="0"/></graphics>
       </transition>
       <transition id="t3">
-        <name>
-          <text>a54</text>
-        </name>
+        <name><text>insertName</text></name>
+        <graphics><position x="980" y="0"/></graphics>
+      </transition>
+      <transition id="t4">
+        <name><text>insertCategory</text></name>
+        <graphics><position x="1260" y="0"/></graphics>
       </transition>
       <transition id="t5">
-        <name>
-          <text>a71</text>
-        </name>
+        <name><text>selectBusinessStrategies</text></name>
+        <graphics><position x="1540" y="0"/></graphics>
       </transition>
       <transition id="t6">
-        <name>
-          <text>a56</text>
-        </name>
+        <name><text>insertType</text></name>
+        <graphics><position x="1820" y="0"/></graphics>
       </transition>
       <transition id="t7">
-        <name>
-          <text>a55</text>
-        </name>
+        <name><text>insertTarget</text></name>
+        <graphics><position x="2100" y="0"/></graphics>
       </transition>
       <transition id="t8">
-        <name>
-          <text>a34</text>
-        </name>
+        <name><text>clickSaveChanges</text></name>
+        <graphics><position x="2380" y="0"/></graphics>
       </transition>
       <transition id="t9">
-        <name>
-          <text>a43</text>
-        </name>
-      </transition>
-      <transition id="t15">
-        <name>
-          <text>a6</text>
-        </name>
-      </transition>
-      <transition id="t14">
-        <name>
-          <text>a1</text>
-        </name>
-      </transition>
-      <transition id="t13">
-        <name>
-          <text>a2</text>
-        </name>
-      </transition>
-      <transition id="t12">
-        <name>
-          <text>a72</text>
-        </name>
-      </transition>
-      <transition id="t11">
-        <name>
-          <text>a73</text>
-        </name>
+        <name><text>cliclClose</text></name>
+        <graphics><position x="2660" y="0"/></graphics>
       </transition>
       <transition id="t10">
-        <name>
-          <text>a32</text>
-        </name>
+        <name><text>clickAssignReal</text></name>
+        <graphics><position x="2940" y="0"/></graphics>
       </transition>
-      <arc id="2124086809600" source="p1" target="t1"/>
-      <arc id="2124086809216" source="p3" target="t3"/>
-      <arc id="2124086808832" source="p5" target="t5"/>
-      <arc id="2124086779520" source="p9" target="t9"/>
-      <arc id="2124086779136" source="p12" target="t12"/>
-      <arc id="2124086809504" source="t1" target="p2"/>
-      <arc id="2124086809120" source="t3" target="p4"/>
-      <arc id="2124086808736" source="t5" target="p6"/>
-      <arc id="2124086778656" source="t14" target="p15"/>
-      <arc id="2124086778272" source="t15" target="p16"/>
-      <arc id="2124086778800" source="p6" target="t6"/>
-      <arc id="2124086779568" source="p8" target="t8"/>
-      <arc id="2124086778416" source="t8" target="p9"/>
-      <arc id="2124086779184" source="p11" target="t11"/>
-      <arc id="2124086778032" source="t11" target="p12"/>
-      <arc id="2124086809792" source="p0" target="t0"/>
-      <arc id="2124086809408" source="p2" target="t2"/>
-      <arc id="2124086809024" source="p4" target="t4"/>
-      <arc id="2124086779712" source="t7" target="p8"/>
-      <arc id="2124086779328" source="t10" target="p11"/>
-      <arc id="2124086778944" source="t13" target="p14"/>
-      <arc id="2124086809696" source="t0" target="p1"/>
-      <arc id="2124086809312" source="t2" target="p3"/>
-      <arc id="2124086808928" source="t4" target="p5"/>
-      <arc id="2124086778848" source="p14" target="t14"/>
-      <arc id="2124086778464" source="p15" target="t15"/>
-      <arc id="2124086779760" source="t6" target="p7"/>
-      <arc id="2124086778608" source="p7" target="t7"/>
-      <arc id="2124086779376" source="t9" target="p10"/>
-      <arc id="2124086778224" source="p10" target="t10"/>
-      <arc id="2124086778992" source="t12" target="p13"/>
-      <arc id="2124086777840" source="p13" target="t13"/>
+      <transition id="t11">
+        <name><text>selectGoals</text></name>
+        <graphics><position x="3220" y="0"/></graphics>
+      </transition>
+      <transition id="t12">
+        <name><text>selectCheckboxes</text></name>
+        <graphics><position x="3500" y="0"/></graphics>
+      </transition>
+      <transition id="t13">
+        <name><text>Edit Goals next</text></name>
+        <graphics><position x="3780" y="0"/></graphics>
+      </transition>
+      <transition id="t14">
+        <name><text>Assign</text></name>
+        <graphics><position x="4060" y="0"/></graphics>
+      </transition>
+      <transition id="t15">
+        <name><text>backToTable</text></name>
+        <graphics><position x="4340" y="0"/></graphics>
+      </transition>
+      <arc id="a0" source="p0" target="t0"/>
+      <arc id="a1" source="t0" target="p1"/>
+      <arc id="a2" source="p1" target="t1"/>
+      <arc id="a3" source="t1" target="p2"/>
+      <arc id="a4" source="p2" target="t2"/>
+      <arc id="a5" source="t2" target="p3"/>
+      <arc id="a6" source="p3" target="t3"/>
+      <arc id="a7" source="t3" target="p4"/>
+      <arc id="a8" source="p4" target="t4"/>
+      <arc id="a9" source="t4" target="p5"/>
+      <arc id="a10" source="p5" target="t5"/>
+      <arc id="a11" source="t5" target="p6"/>
+      <arc id="a12" source="p6" target="t6"/>
+      <arc id="a13" source="t6" target="p7"/>
+      <arc id="a14" source="p7" target="t7"/>
+      <arc id="a15" source="t7" target="p8"/>
+      <arc id="a16" source="p8" target="t8"/>
+      <arc id="a17" source="t8" target="p9"/>
+      <arc id="a18" source="p9" target="t9"/>
+      <arc id="a19" source="t9" target="p10"/>
+      <arc id="a20" source="p10" target="t10"/>
+      <arc id="a21" source="t10" target="p11"/>
+      <arc id="a22" source="p11" target="t11"/>
+      <arc id="a23" source="t11" target="p12"/>
+      <arc id="a24" source="p12" target="t12"/>
+      <arc id="a25" source="t12" target="p13"/>
+      <arc id="a26" source="p13" target="t13"/>
+      <arc id="a27" source="t13" target="p14"/>
+      <arc id="a28" source="p14" target="t14"/>
+      <arc id="a29" source="t14" target="p15"/>
+      <arc id="a30" source="p15" target="t15"/>
+      <arc id="a31" source="t15" target="p16"/>
     </page>
-    <finalmarkings>
-      <marking>
-        <place idref="p16">
-          <text>1</text>
-        </place>
-      </marking>
-    </finalmarkings>
   </net>
 </pnml>
