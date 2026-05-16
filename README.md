@@ -11,7 +11,8 @@ This repository contains the implementation and datasets for discovering routine
 - utils/ : Utility functions  
 - out/ : Output results  
 - Routine_Identification.py : Routine identification process  
-- Routine_Evaluation.py : Evaluation of identified routines  
+- Routine_Evaluation.py : Evaluation of identified routines
+- Statistical_Analysis_Results : Statistical significance analysis comparing the baseline approaches against our proposed technique (Community Detection with Label Splitting). The table reports the paired two-sided t-test statistic (t), the raw p-value (p), and the Holm-corrected p-value (p_H).  
 
 ---
 
