@@ -41,7 +41,7 @@ def get_context(df, idx, window_size):
     context = df.iloc[start_idx:end_idx]['concept:name'].tolist()
     return context
 
-def split_common_actions(log_df, common_actions, window_size, distance_threshold=0, method='distance'):
+def split_common_actions(log_df, common_actions, window_size, distance_threshold=3, method='distance'):
     """
     Splits common actions based on their context.
     

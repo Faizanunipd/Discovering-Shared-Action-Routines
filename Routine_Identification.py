@@ -12,7 +12,7 @@ def main(log_path):
     unseg_log = pd.read_csv(log_path)
 
     COMMON_ACTIONS = grf.get_common_actions(unseg_log)
-    split_log = split_common_actions(unseg_log, COMMON_ACTIONS, window_size=3, distance_threshold=3, method='distance')
+    split_log = split_common_actions(unseg_log, COMMON_ACTIONS, window_size=1)
 
     dfg = grf.discover_dfg(split_log)
     G_Directed = grf.get_Network_Graph(dfg, output_filename=f"Graph_Matrix_Directed.csv")
