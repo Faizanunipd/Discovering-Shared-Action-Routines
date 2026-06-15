@@ -1,6 +1,11 @@
-# Shared-Actions-RPA
+# Discovering Shared-Action Routines
 
-This repository contains the implementation and datasets for discovering routine types with shared actions from interleaved executions in robotic process automation (RPA).
+Source code accompanying the BPM 2026 paper:
+
+"Discovering Shared-Action Routines from Interleaved Executions for Robotic Process Automation"
+
+Authors:
+Massimiliano de Leoni, Faizan Ahmed Khan
 
 ---
 
