@@ -9,7 +9,10 @@ Source code and experimental artifacts accompanying the BPM 2026 paper:
 - Massimiliano de Leoni, University of Padova
 - Faizan Ahmed Khan, University of Padova
 
----
+## Description
+
+This repository contains the source code, datasets, experimental artifacts, and evaluation scripts used in the BPM 2026 paper *"Discovering Shared-Action Routines from Interleaved Executions for Robotic Process Automation"*.
+
 
 ## Repository Structure
 
