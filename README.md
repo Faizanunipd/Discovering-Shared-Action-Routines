@@ -1,11 +1,13 @@
 # Discovering Shared-Action Routines
 
-Source code accompanying the BPM 2026 paper:
+Source code and experimental artifacts accompanying the BPM 2026 paper:
 
-"Discovering Shared-Action Routines from Interleaved Executions for Robotic Process Automation"
+**"Discovering Shared-Action Routines from Interleaved Executions for Robotic Process Automation"**
 
-Authors:
-Massimiliano de Leoni, Faizan Ahmed Khan
+## Authors
+
+- Massimiliano de Leoni, University of Padova
+- Faizan Ahmed Khan, University of Padova
 
 ---
 
